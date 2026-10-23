@@ -184,9 +184,7 @@ void setup() {
   server.on("/", HTTP_GET, handleRoot);
   server.on("/api/distance", HTTP_GET, handleDistance);
   server.on("/api/leds", HTTP_GET, handleGetLeds);
-  server.on("/api/led",  HTTP_GET, handleGetLeds);
   server.on(UriBraces("/api/leds/{}"), HTTP_PUT, handlePutLed);
-  server.on(UriBraces("/api/led/{}"),  HTTP_PUT, handlePutLed);
   server.onNotFound(handleNotFound);
   server.begin();
   Serial.println("HTTP server started on port 80");
