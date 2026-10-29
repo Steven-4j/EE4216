@@ -20,7 +20,7 @@ const char* GATEWAY_AP_SSID = "A0309529W";
 const char* GATEWAY_AP_PASSWORD = "YOUR_GATEWAY_AP_PASSWORD";
 const int TRIG_PIN = 4;
 const int ECHO_PIN = 5; // via voltage divider
-const int LED_PIN = 6;  // IMPORTANT: change to actual LED strip DIN GPIO
+const int LED_PIN = 7;  // IMPORTANT: change to actual LED strip DIN GPIO
 const int NUM_LEDS = 8;
 // ====================
 

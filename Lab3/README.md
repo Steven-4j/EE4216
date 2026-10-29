@@ -21,7 +21,7 @@ Two ESP32-S3 boards link a local sensor network to ThingSpeak:
 | --- | --- |
 | HC-SR04 TRIG | 4 |
 | HC-SR04 ECHO | 5, through the Lab 1 voltage divider |
-| NeoPixel DIN | `LED_PIN` in the sketch; match it to your wiring |
+| NeoPixel DIN | 7 |
 
 ## Configuration
 
